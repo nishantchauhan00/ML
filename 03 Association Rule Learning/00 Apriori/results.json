@@ -1,0 +1,38 @@
+{
+    "0": {
+        "RULE": "frozenset({'other vegetables', 'whole milk'})",
+        "SUPPORT": "0.07483477376715811",
+        "RESULTS": {
+            "0": {
+                "BASE ITEM": "frozenset({'other vegetables'})",
+                "CONSEQUENT ITEM": "frozenset({'whole milk'})",
+                "CONFIDENCE": "0.38675775091960063",
+                "LIFT": "1.5136340948246207"
+            },
+            "1": {
+                "BASE ITEM": "frozenset({'whole milk'})",
+                "CONSEQUENT ITEM": "frozenset({'other vegetables'})",
+                "CONFIDENCE": "0.2928770393951452",
+                "LIFT": "1.5136340948246205"
+            }
+        }
+    },
+    "1": {
+        "RULE": "frozenset({'yogurt', 'whole milk'})",
+        "SUPPORT": "0.05602440264361973",
+        "RESULTS": {
+            "0": {
+                "BASE ITEM": "frozenset({'whole milk'})",
+                "CONSEQUENT ITEM": "frozenset({'yogurt'})",
+                "CONFIDENCE": "0.21925984878631116",
+                "LIFT": "1.5717351405345263"
+            },
+            "1": {
+                "BASE ITEM": "frozenset({'yogurt'})",
+                "CONSEQUENT ITEM": "frozenset({'whole milk'})",
+                "CONFIDENCE": "0.40160349854227406",
+                "LIFT": "1.5717351405345266"
+            }
+        }
+    }
+}
